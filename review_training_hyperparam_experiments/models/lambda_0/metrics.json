@@ -1,0 +1,16 @@
+{
+  "model": "Fine-tuned GAIN",
+  "iterations": 3000,
+  "alpha": 100.0,
+  "prediction_weight": 0.0,
+  "training_time_sec": 363.09134940000007,
+  "time_per_100_iter_sec": 12.103044980000002,
+  "peak_gpu_memory_mb": 721.64990234375,
+  "generator_parameters": 76,
+  "discriminator_parameters": 76,
+  "best_iteration": 3000,
+  "imputation_rmse": 0.11288555101336252,
+  "val_prediction_mse": 68.67278289794922,
+  "test_prediction_mse": 136.0691680908203,
+  "model_dir": "C:\\llm_project\\Improved LSTM+GAIN_pytorch\\Improved LSTM+GAIN\\review_training_hyperparam_experiments\\models\\lambda_0"
+}

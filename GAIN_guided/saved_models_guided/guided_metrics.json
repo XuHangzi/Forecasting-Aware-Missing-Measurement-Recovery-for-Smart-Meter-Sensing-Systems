@@ -1,0 +1,13 @@
+{
+  "baseline_val_prediction_mse": 163.00507192126517,
+  "baseline_test_prediction_mse": 307.79491474607244,
+  "baseline_imputation_rmse": 0.22297637448974775,
+  "best_guided_val_prediction_mse": 71.13541384683315,
+  "best_guided_test_prediction_mse": 164.52247114617762,
+  "best_guided_imputation_rmse": 0.14067946178469254,
+  "best_iteration": 1200,
+  "improved_over_baseline": true,
+  "train_pair_count": 22680,
+  "val_pair_count": 2516,
+  "test_pair_count": 6296
+}

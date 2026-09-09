@@ -1,0 +1,40 @@
+{
+  "definition": {
+    "imputation_accuracy": "ACC = (correctly reconstructed entries over the whole matrix / total entries) * 100. Observed entries are treated as correct by construction. Missing entries are treated as correct only when their absolute imputation error is < 10.0.",
+    "success_threshold": 10.0,
+    "behavior": "As the missing rate increases, fewer entries remain observed and more entries rely on imputation, so ACC tends to decrease more clearly."
+  },
+  "missing_rates": [
+    {
+      "missing_rate": 0.1,
+      "gain_accuracy": 94.73744292237443,
+      "guided_gain_accuracy": 96.35559360730593,
+      "success_threshold": 10.0
+    },
+    {
+      "missing_rate": 0.2,
+      "gain_accuracy": 89.51769406392694,
+      "guided_gain_accuracy": 92.82248858447488,
+      "success_threshold": 10.0
+    },
+    {
+      "missing_rate": 0.3,
+      "gain_accuracy": 84.412100456621,
+      "guided_gain_accuracy": 89.26940639269407,
+      "success_threshold": 10.0
+    },
+    {
+      "missing_rate": 0.4,
+      "gain_accuracy": 78.81563926940639,
+      "guided_gain_accuracy": 85.21689497716895,
+      "success_threshold": 10.0
+    },
+    {
+      "missing_rate": 0.5,
+      "gain_accuracy": 73.82990867579909,
+      "guided_gain_accuracy": 81.76940639269407,
+      "success_threshold": 10.0
+    }
+  ],
+  "plot_path": "C:\\llm_project\\Improved LSTM+GAIN_pytorch\\Improved LSTM+GAIN\\imputation_success_2014_4users\\imputation_success_rate_comparison_thr10_2014_4users.png"
+}

@@ -1,0 +1,40 @@
+{
+  "definition": {
+    "imputation_accuracy_missing_only": "ACC_missing = (successfully imputed missing entries / total artificially missing entries) * 100.",
+    "success_threshold": 10.0,
+    "success_rule": "A missing position is counted as successful when |imputed - truth| < 10.0."
+  },
+  "missing_rates": [
+    {
+      "missing_rate": 0.1,
+      "success_threshold": 10.0,
+      "gain_accuracy_missing_only": 47.072330654420206,
+      "guided_gain_accuracy_missing_only": 63.346727898966705
+    },
+    {
+      "missing_rate": 0.2,
+      "success_threshold": 10.0,
+      "gain_accuracy_missing_only": 47.06730076379882,
+      "guided_gain_accuracy_missing_only": 63.75558437815247
+    },
+    {
+      "missing_rate": 0.3,
+      "success_threshold": 10.0,
+      "gain_accuracy_missing_only": 47.72205206738132,
+      "guided_gain_accuracy_missing_only": 64.01225114854518
+    },
+    {
+      "missing_rate": 0.4,
+      "success_threshold": 10.0,
+      "gain_accuracy_missing_only": 47.14468812304187,
+      "guided_gain_accuracy_missing_only": 63.1159213899174
+    },
+    {
+      "missing_rate": 0.5,
+      "success_threshold": 10.0,
+      "gain_accuracy_missing_only": 48.24180165942315,
+      "guided_gain_accuracy_missing_only": 63.94423435118812
+    }
+  ],
+  "plot_path": "C:\\llm_project\\Improved LSTM+GAIN_pytorch\\Improved LSTM+GAIN\\imputation_success_2014_4users\\imputation_success_rate_missing_only_thr10_2014_4users.png"
+}
